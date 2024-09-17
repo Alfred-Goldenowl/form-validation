@@ -1,0 +1,40 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.content{
+    color: gray;
+}
+.form-submit{
+    width: 800px;
+    background-color: rgba(191, 191, 191,.3);
+    border-radius: 10px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+}
+.form-row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.btn-close{
+    position: absolute;
+    right: 10px;
+    top:10px;
+}
+.modal-content{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
